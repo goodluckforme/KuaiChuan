@@ -143,7 +143,7 @@ public class FileReceiver extends BaseTransfer implements Runnable {
         if(mOnReceiveListener != null)mOnReceiveListener.onGetScreenshot(bitmap);
 
         MLog.i(TAG, "FileReceiver receive screenshot size------>>>" + screenshotTotal);
-//        MLog.i(TAG, "FileReceiver receive screenshot------>>>" + new String(headerBytes, UTF_8));
+        //MLog.i(TAG, "FileReceiver receive screenshot------>>>" + new String(headerBytes, UTF_8));
 
 
         //解析header

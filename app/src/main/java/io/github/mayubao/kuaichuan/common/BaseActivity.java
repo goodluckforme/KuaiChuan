@@ -70,6 +70,4 @@ public class BaseActivity extends AppCompatActivity {
             mProgressDialog = null;
         }
     }
-
-
 }
